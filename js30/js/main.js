@@ -62,7 +62,7 @@ function switchTreck () {
   // Включаем песню
   if (audio.paused === true || audio.paused === true && treck === 0){
     // Меняем значение атрибута src
-    audio.src = '../audio/' + playlist[0];
+    audio.src = './audio/' + playlist[0];
     // Назначаем время песни ноль
     audio.currentTime = 0;
     audio.play();
